@@ -1,0 +1,207 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "https://zedy-table.table.cosmos.azure.com/Tables",
+      "RequestMethod": "POST",
+      "RequestHeaders": {
+        "Accept": "application/json;odata=minimalmetadata",
+        "Accept-Encoding": "gzip,deflate",
+        "Authorization": "Sanitized",
+        "Connection": "keep-alive",
+        "Content-Length": "30",
+        "Content-Type": "application/json;charset=utf-8",
+        "DataServiceVersion": "3.0",
+        "User-Agent": "azsdk-js-data-tables/13.1.2 core-rest-pipeline/1.10.1 Node/v16.14.0 OS/(x64-Windows_NT-10.0.19045)",
+        "x-ms-client-request-id": "37730d7f-1aa5-4c3a-94ba-520d2ea2308e",
+        "x-ms-date": "Mon, 13 Feb 2023 09:54:44 GMT",
+        "x-ms-version": "2019-02-02"
+      },
+      "RequestBody": {
+        "TableName": "adventureworks"
+      },
+      "StatusCode": 201,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; odata=minimalmetadata",
+        "Date": "Mon, 13 Feb 2023 09:54:44 GMT",
+        "ETag": "W/\u0022datetime\u00272023-02-13T09%3A54%3A44.7627271Z\u0027\u0022",
+        "Location": "https://zedy-table.table.cosmos.azure.com/Tables(\u0027adventureworks\u0027)",
+        "Transfer-Encoding": "chunked"
+      },
+      "ResponseBody": {
+        "TableName": "adventureworks",
+        "odata.metadata": "https://zedy-table.table.cosmos.azure.com/$metadata#Tables/@Element"
+      }
+    },
+    {
+      "RequestUri": "https://zedy-table.table.cosmos.azure.com/adventureworks",
+      "RequestMethod": "POST",
+      "RequestHeaders": {
+        "Accept": "application/json;odata=minimalmetadata",
+        "Accept-Encoding": "gzip,deflate",
+        "Authorization": "Sanitized",
+        "Connection": "keep-alive",
+        "Content-Length": "113",
+        "Content-Type": "application/json;charset=utf-8",
+        "DataServiceVersion": "3.0",
+        "Prefer": "return-no-content",
+        "User-Agent": "azsdk-js-data-tables/13.1.2 core-rest-pipeline/1.10.1 Node/v16.14.0 OS/(x64-Windows_NT-10.0.19045)",
+        "x-ms-client-request-id": "12971a84-4651-46e4-b08f-ca0c14761e71",
+        "x-ms-date": "Mon, 13 Feb 2023 09:54:45 GMT",
+        "x-ms-version": "2019-02-02"
+      },
+      "RequestBody": {
+        "RowKey": "68719518388",
+        "PartitionKey": "gear-surf-surfboards",
+        "Name": "Ocean Surfboard1",
+        "Quantity": 8,
+        "Sale": true
+      },
+      "StatusCode": 204,
+      "ResponseHeaders": {
+        "Content-Type": "application/json",
+        "Date": "Mon, 13 Feb 2023 09:54:44 GMT",
+        "ETag": "W/\u0022datetime\u00272023-02-13T09%3A54%3A45.3168135Z\u0027\u0022",
+        "Location": "https://zedy-table.table.cosmos.azure.com/adventureworks(PartitionKey=\u0027gear-surf-surfboards\u0027,RowKey=\u002768719518388\u0027)",
+        "Preference-Applied": "return-no-content"
+      },
+      "ResponseBody": null
+    },
+    {
+      "RequestUri": "https://zedy-table.table.cosmos.azure.com/adventureworks(PartitionKey=\u0027gear-surf-surfboards\u0027,RowKey=\u002768719518388\u0027)",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json;odata=minimalmetadata",
+        "Accept-Encoding": "gzip,deflate",
+        "Authorization": "Sanitized",
+        "Connection": "keep-alive",
+        "Content-Type": "application/json;charset=utf-8",
+        "DataServiceVersion": "3.0",
+        "User-Agent": "azsdk-js-data-tables/13.1.2 core-rest-pipeline/1.10.1 Node/v16.14.0 OS/(x64-Windows_NT-10.0.19045)",
+        "x-ms-client-request-id": "6df46b45-0423-4e0d-83ef-4cf5da186907",
+        "x-ms-date": "Mon, 13 Feb 2023 09:54:45 GMT",
+        "x-ms-version": "2019-02-02"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; odata=minimalmetadata",
+        "Date": "Mon, 13 Feb 2023 09:54:45 GMT",
+        "ETag": "W/\u0022datetime\u00272023-02-13T09%3A54%3A45.3168135Z\u0027\u0022",
+        "Transfer-Encoding": "chunked"
+      },
+      "ResponseBody": {
+        "odata.metadata": "https://zedy-table.table.cosmos.azure.com/adventureworks/$metadata#adventureworks/@Element",
+        "odata.etag": "W/\u0022datetime\u00272023-02-13T09%3A54%3A45.3168135Z\u0027\u0022",
+        "RowKey": "68719518388",
+        "PartitionKey": "gear-surf-surfboards",
+        "Name": "Ocean Surfboard1",
+        "Quantity": 8,
+        "Sale": true,
+        "Timestamp": "2023-02-13T09:54:45.3168135Z"
+      }
+    },
+    {
+      "RequestUri": "https://zedy-table.table.cosmos.azure.com/adventureworks",
+      "RequestMethod": "POST",
+      "RequestHeaders": {
+        "Accept": "application/json;odata=minimalmetadata",
+        "Accept-Encoding": "gzip,deflate",
+        "Authorization": "Sanitized",
+        "Connection": "keep-alive",
+        "Content-Length": "113",
+        "Content-Type": "application/json;charset=utf-8",
+        "DataServiceVersion": "3.0",
+        "Prefer": "return-no-content",
+        "User-Agent": "azsdk-js-data-tables/13.1.2 core-rest-pipeline/1.10.1 Node/v16.14.0 OS/(x64-Windows_NT-10.0.19045)",
+        "x-ms-client-request-id": "c754bbf3-07ad-43ff-b86b-b1bfc7ac5798",
+        "x-ms-date": "Mon, 13 Feb 2023 09:54:45 GMT",
+        "x-ms-version": "2019-02-02"
+      },
+      "RequestBody": {
+        "RowKey": "68719518390",
+        "PartitionKey": "gear-surf-surfboards",
+        "Name": "Sand Surfboard2",
+        "Quantity": 5,
+        "Sale": false
+      },
+      "StatusCode": 204,
+      "ResponseHeaders": {
+        "Content-Type": "application/json",
+        "Date": "Mon, 13 Feb 2023 09:54:45 GMT",
+        "ETag": "W/\u0022datetime\u00272023-02-13T09%3A54%3A45.8307591Z\u0027\u0022",
+        "Location": "https://zedy-table.table.cosmos.azure.com/adventureworks(PartitionKey=\u0027gear-surf-surfboards\u0027,RowKey=\u002768719518390\u0027)",
+        "Preference-Applied": "return-no-content"
+      },
+      "ResponseBody": null
+    },
+    {
+      "RequestUri": "https://zedy-table.table.cosmos.azure.com/adventureworks()?$filter=PartitionKey%20eq%20%27gear-surf-surfboards%27",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json;odata=minimalmetadata",
+        "Accept-Encoding": "gzip,deflate",
+        "Authorization": "Sanitized",
+        "Connection": "keep-alive",
+        "Content-Type": "application/json;charset=utf-8",
+        "DataServiceVersion": "3.0",
+        "User-Agent": "azsdk-js-data-tables/13.1.2 core-rest-pipeline/1.10.1 Node/v16.14.0 OS/(x64-Windows_NT-10.0.19045)",
+        "x-ms-client-request-id": "b18ab1ca-5f80-443d-8f46-466466bed739",
+        "x-ms-date": "Mon, 13 Feb 2023 09:54:45 GMT",
+        "x-ms-version": "2019-02-02"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; odata=minimalmetadata",
+        "Date": "Mon, 13 Feb 2023 09:54:45 GMT",
+        "Transfer-Encoding": "chunked"
+      },
+      "ResponseBody": {
+        "value": [
+          {
+            "odata.etag": "W/\u0022datetime\u00272023-02-13T09%3A54%3A45.3168135Z\u0027\u0022",
+            "RowKey": "68719518388",
+            "PartitionKey": "gear-surf-surfboards",
+            "Name": "Ocean Surfboard1",
+            "Quantity": 8,
+            "Sale": true,
+            "Timestamp": "2023-02-13T09:54:45.3168135Z"
+          },
+          {
+            "odata.etag": "W/\u0022datetime\u00272023-02-13T09%3A54%3A45.8307591Z\u0027\u0022",
+            "RowKey": "68719518390",
+            "PartitionKey": "gear-surf-surfboards",
+            "Name": "Sand Surfboard2",
+            "Quantity": 5,
+            "Sale": false,
+            "Timestamp": "2023-02-13T09:54:45.8307591Z"
+          }
+        ],
+        "odata.metadata": "https://zedy-table.table.cosmos.azure.com/$metadata#adventureworks"
+      }
+    },
+    {
+      "RequestUri": "https://zedy-table.table.cosmos.azure.com/Tables(\u0027adventureworks\u0027)",
+      "RequestMethod": "DELETE",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Accept-Encoding": "gzip,deflate",
+        "Authorization": "Sanitized",
+        "Connection": "keep-alive",
+        "Content-Type": "application/json;charset=utf-8",
+        "User-Agent": "azsdk-js-data-tables/13.1.2 core-rest-pipeline/1.10.1 Node/v16.14.0 OS/(x64-Windows_NT-10.0.19045)",
+        "x-ms-client-request-id": "b7a84b50-d2e0-40a6-9822-20e70a3eff5f",
+        "x-ms-date": "Mon, 13 Feb 2023 09:54:46 GMT",
+        "x-ms-version": "2019-02-02"
+      },
+      "RequestBody": null,
+      "StatusCode": 204,
+      "ResponseHeaders": {
+        "Content-Type": "application/json",
+        "Date": "Mon, 13 Feb 2023 09:54:46 GMT"
+      },
+      "ResponseBody": null
+    }
+  ],
+  "Variables": {}
+}

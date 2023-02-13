@@ -1,0 +1,22 @@
+{
+  "name": "record-playback-test-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@azure/data-tables": "^13.2.1",
+    "dotenv": "^16.0.3"
+  },
+  "dependencies": {
+    "@azure/core-client": "^1.7.1",
+    "@azure/core-http": "^3.0.0",
+    "@azure/core-rest-pipeline": "^1.10.1",
+    "fs": "^0.0.1-security"
+  }
+}

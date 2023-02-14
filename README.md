@@ -32,6 +32,7 @@ Notes: After installing the tool, run it in a terminal or cmd window by typing t
 
 ```
 git clone https://github.com/Azure-Samples/record-playback-test-proxy-demo-javascript.git
+cd record-playback-test-proxy-demo-javascript
 ```
 
 2.Install the package for this project.

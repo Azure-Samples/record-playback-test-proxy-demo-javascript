@@ -17,7 +17,7 @@ The following prerequisites are required to use this application. Please ensure 
 
 - [Node.js (16.14.0+)](https://nodejs.org/en/download/)
 - [Visual Studio Code](https://code.visualstudio.com/download)
-- [Install .NET 5.0 or higher](https://dotnet.microsoft.com/download)
+- [Install .NET 6.0 or higher](https://dotnet.microsoft.com/en-us/download)
 - [Install the test-proxy](https://github.com/Azure/azure-sdk-tools/tree/main/tools/test-proxy/Azure.Sdk.Tools.TestProxy#installation)
 
 ```
@@ -57,9 +57,10 @@ tsc cosmosDBTablesExample.ts
 node cosmosDBTablesExample.js
 ```
 
-This project is intended to be a demo that goes with the following Azure
-SDK blog post:
-`<blog post link TBD>`
+The included recording file is provided for illustration purposes only, it can't be used to play back the test since the resources associated with it no longer exist in Azure.
+
+This project is intended to be a demo that goes with the following [Azure
+SDK blog post](https://devblogs.microsoft.com/azure-sdk/level-up-your-cloud-testing-game-with-the-azure-sdk-test-proxy/).
 
 The test proxy is compatible with all four major languages and can be
 easily installed using the standard dotnet tool installation process as

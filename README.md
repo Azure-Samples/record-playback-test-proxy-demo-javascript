@@ -53,7 +53,7 @@ npm install
 4.Run the sample.
 
 ```
-tsc cosmosDBTablesExample.ts
+tsc
 node cosmosDBTablesExample.js
 ```
 
